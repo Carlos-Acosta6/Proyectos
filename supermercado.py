@@ -6,7 +6,7 @@ cliente2 = 'vip'
 
 #cliente vip
 
-if tipo_cliente == cliente2 and compra >= 1000:
+if tipo_cliente == 'vip' and compra >= 1000:
     print (f"Monto a pagar: RD$ {compra - (compra * 0.20):.2f} (Descuento del 20%)") 
 
 elif tipo_cliente == cliente2 and compra < 1000:
